@@ -62,11 +62,17 @@ body {
 }
 
 .hero__link {
+  display: inline-block;
   margin-right: 30px;
   border-radius: 15px;
   padding: 20px 40px;
   font-weight: 700;
   background-color: #1ae7e7;
+  transition: transform 0.4s;
+}
+
+.hero__link:hover {
+  transform: scale(0.9);
 }
 
 .hero__link--bg-yellow {
